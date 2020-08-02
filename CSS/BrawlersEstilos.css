@@ -1,0 +1,52 @@
+h1{
+    color:white;
+	font-size: 50px;
+	font-family: Helvetica;
+	border: 5px;
+    border color: #FFFFFF;
+    border-style: double;
+    width: 500px
+}
+h2{
+    color:#0AF6B2;
+	font-size: 30px;
+	font-family: Helvetica;
+}
+h3{
+	color:#FFFFFF;
+	font-size: 30px;
+	font-family: Bradley Hand ITC;
+	border: 5px; width: 500px;
+    border color: #EBF60A;
+    border-style: solid;
+}
+p{
+    color:#FFFFFF;
+	font-size: 30px;
+	font-family: Arial Narrow;
+}
+body{
+	/*background-color: black;*/
+	background-image:url(../imagenes/fondodos.JPG);
+}
+a{
+	color: black;
+	
+}
+
+button{
+   color: black;
+}
+
+.redessociales li {
+	display: inline-block;
+}
+
+footer{
+	background: white;
+}
+
+
+aside{
+	float: right;
+}

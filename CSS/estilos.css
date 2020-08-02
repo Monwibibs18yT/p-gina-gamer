@@ -1,0 +1,132 @@
+h1 {
+	color:white; /*poner color al titulo*/
+	font-size: 25px; /* poner el tamaño de letra. px= pixeles*/
+	font-family: Bookman Old; /*tipo de letra (podemos utilizar las de word*/
+    border: 5px; /* agregamos esta etiqueta para añadir un borde al texto*/
+    border color: #FFFFFF; /* agregamos esta etiqueta para añadirle un color al borde*/
+    border-style: solid; /* esta etiqueta la utilizamos para el tipo de vorde que quieramos utilizar*/
+    width: 500px; /* esta etiqueta se utiliza para el tamaño del borde*/
+
+}
+p{
+	color:#FFFFFF; /*color a los comentarios*/
+	font-size: 16px;/* tamaño de comentario*/
+	font-family: Arial;/* tipo deletra en el comentario*/
+	text-align: center; /*centrar el texto*/
+	letter-spacing:5px; /* esta etiqueta la utilizamos para darle espacio al texto entre cada letra*/
+}
+h2 {
+	color:#EBF60A;
+	font-size: 30px;
+	font-family: Bradley Hand ITC;
+	border: 5px;
+    border color: #EBF60A;
+    border-style: solid;
+
+}
+p#comentariostars{
+  color:#EBF60A;
+	font-size: 20px;
+	font-family: arial; 
+	text-align: center;   
+}
+h3 {
+    color:#1ECAF8;
+	font-size: 30px;
+	font-family: Bradley Hand ITC;
+	border: 5px;
+    border color: #1ECAF8;
+    border-style: solid;
+}
+p#comentarioroyale{
+	color:#1ECAF8;
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+}
+h4 {
+	color:#EBF60A;
+	font-size: 30px;
+	font-family: Bradley Hand ITC;
+	border: 5px;
+    border color: #EBF60A;
+    border-style: solid;
+}
+h5{
+	color:black;
+	font-size: 30px;
+	font-family: Bradley Hand ITC;
+	border: 5px;
+    border color: #EBF60A;
+    border-style: solid;
+}
+p#comentariodash{ /*agregamos la lmoadila (#) para hacer el enlace con su respectivo id (en este caso el nombre del id) */
+	color:#EBF60A;
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+}
+
+body { /*agregamos esta etiqueta*/
+	/*background-color: black; /* Con este comando podremos cambiar el color de todo el fondo de la pagina*/
+     /*background-image: url(Brawlstars.JPG); */
+   background-image: url(../imagenes/fondogamer.JPG); /*los dos puntos se utilizan para buscar la imagen en la carpeta "imagenes" saliendo de la carpeta CSS*/   
+
+}
+
+a{
+	color: white;
+
+}
+
+button {
+	color: black;
+}
+
+.redessociales li {
+	display: inline-block;
+}
+
+footer{
+	background: white;
+	width: 800px;
+	height: 300px;
+}
+
+nav{/*Estilos para el nav en generañ*/
+	background: white;
+	height: 80px;
+	/*clear: both; para*/
+}
+
+nav ul{
+	padding-top: 15px;/*es como el margen-separacion de arriba*/
+	padding-right: 130px; /*separacion*/
+	list-style: none;/*estilo de lista*/
+	text-align: center;/*para centrar los "li"*/
+
+}
+
+nav ul li a{
+	text-decoration: none;/*no tiene decoracion*/
+	color:black;/*color de letra*/
+	font-family: Bookman Old;/*estilo de letra*/
+	font-size: 40px;/*tamaño de letra*/
+	text-align: center;*/
+	border: none;
+	
+}
+
+nav.pagina ul li{/*para distinguir de las barras horiz..y verti..*/
+	display: inline-block; /*se aplica a cada etiqueta LI para poner en vertical*/
+	padding-left:125px;/*para separar los textos li*/
+}
+
+.form{
+color: white;
+border: red 5px dashed;
+height: 350px; /*alto*/
+width: 260px; /*ancho*/
+font-family: arial;
+font-size: 24px;
+}
